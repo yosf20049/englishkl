@@ -219,7 +219,36 @@ section {
     margin: 20px 0 45px;
 }
 
-
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-1 {
+    width: 606px;
+  }
+  .u-section-2 .u-text-2 {
+    width: 288px;
+  }
+}
+@media (max-width: 1150px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 678px;
+  }
+  .u-section-2 .u-text-1 {
+    font-size: 2rem;
+    width: auto;
+  }
+  .u-section-2 .u-text-3 {
+    width: 540px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 703px;
+  }
+  .u-section-2 .u-text-3 {
+    width: 340px;
+    margin-bottom: 60px;
+  }
+}
 
 
 
